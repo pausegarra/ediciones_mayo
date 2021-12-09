@@ -111,10 +111,7 @@ class TextsTest extends TestCase
             'api_token' => hash('sha256', $token),
         ]);
 
-        Text::factory(1)->create([
-            'text' => 'Lorem Ipsum',
-            'url'  => 'image.png'
-        ]);
+        Text::factory(1)->create();
 
         $response = $this->actingAs($user,'sanctum')->json('POST','/api/texts/1',[
             'text' => 'Lorem Ipsum',

@@ -61,13 +61,13 @@ class TextController extends Controller
             $text->text = $request->getText();
 
         if ($request->getTitle() != null)
-            $text->text = $request->getTitle();
+            $text->title = $request->getTitle();
 
         if ($request->getDoctor() != null)
-            $text->text = $request->getDoctor();
+            $text->doctor = $request->getDoctor();
 
         if ($request->getLocation() != null)
-            $text->text = $request->getLocation();
+            $text->location = $request->getLocation();
 
         $text->save();
     }
