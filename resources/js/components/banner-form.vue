@@ -70,7 +70,7 @@ export default {
         handleSubmit: async function (evt) {
             evt.preventDefault()
 
-            let url = '/api/banner/'
+            let url = '/api/banner'
 
             if (this.editing) {
                 url = '/api/banner/' + this.id

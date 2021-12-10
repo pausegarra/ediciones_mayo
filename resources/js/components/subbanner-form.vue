@@ -74,7 +74,7 @@ export default {
         handleSubmit: async function (evt) {
             evt.preventDefault()
 
-            let url = '/api/subbanner/'
+            let url = '/api/subbanner'
 
             if (this.editing) {
                 url = '/api/subbanner/' + this.id

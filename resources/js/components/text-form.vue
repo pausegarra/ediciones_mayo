@@ -86,7 +86,7 @@ export default {
         handleSubmit: async function (evt) {
             evt.preventDefault()
 
-            let url = '/api/texts/'
+            let url = '/api/texts'
 
             if (this.editing) {
                 url = '/api/texts/' + this.id

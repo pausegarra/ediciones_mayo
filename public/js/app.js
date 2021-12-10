@@ -5382,7 +5382,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
             switch (_context.prev = _context.next) {
               case 0:
                 evt.preventDefault();
-                url = '/api/banner/';
+                url = '/api/banner';
 
                 if (this.editing) {
                   url = '/api/banner/' + this.id;
@@ -5670,7 +5670,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
             switch (_context.prev = _context.next) {
               case 0:
                 evt.preventDefault();
-                url = '/api/subbanner/';
+                url = '/api/subbanner';
 
                 if (this.editing) {
                   url = '/api/subbanner/' + this.id;
@@ -5974,7 +5974,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
             switch (_context.prev = _context.next) {
               case 0:
                 evt.preventDefault();
-                url = '/api/texts/';
+                url = '/api/texts';
 
                 if (this.editing) {
                   url = '/api/texts/' + this.id;
